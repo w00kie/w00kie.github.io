@@ -35,7 +35,7 @@ export function Portfolio() {
       <div className="flex flex-col gap-6">
         <div className="flex flex-col gap-2">
           <ProjectLink
-            href="/jpn-inheritance-tax"
+            href="/jpn-inheritance-tax/"
             name="Japanese Inheritance Tax Calculator"
             githubLink="https://github.com/w00kie/jpn-inheritance-tax"
           />
