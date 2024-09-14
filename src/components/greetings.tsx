@@ -3,7 +3,7 @@ export function Greetings() {
     <section className="flex flex-col gap-6">
       <div className="flex flex-col space-y-2 text-4xl font-extrabold tracking-tight lg:text-5xl">
         <p>Hello,</p>
-        <p>
+        <h1>
           I'm{" "}
           <span className="inline-flex flex-col text-indigo-500 h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] lg:h-[calc(theme(fontSize.5xl)*theme(lineHeight.tight))] overflow-hidden">
             <ul className="block animate-text-slide text-left leading-tight [&_li]:block">
@@ -21,7 +21,7 @@ export function Greetings() {
               </li>
             </ul>
           </span>
-        </p>
+        </h1>
       </div>
       <div className="flex flex-col space-y-2 text-xl text-muted-foreground">
         <p className="">
