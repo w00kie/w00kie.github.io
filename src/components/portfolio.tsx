@@ -30,7 +30,7 @@ export function Portfolio() {
   return (
     <section className="flex flex-col gap-6">
       <h2 className="text-2xl font-semibold tracking-tight">
-        Here are some of the things I made:
+        Some of the things I made:
       </h2>
       <div className="flex flex-col gap-6">
         <div className="flex flex-col gap-2">
