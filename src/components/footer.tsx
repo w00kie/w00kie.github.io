@@ -6,7 +6,7 @@ import Twitter from "@/assets/twitter.svg?react";
 
 export function Footer() {
   return (
-    <footer className="text-muted-foreground">
+    <footer className="text-muted-foreground mb-4">
       <ul className="flex flex-row gap-2 justify-center">
         <li>
           <a href="https://w00kie.com">
