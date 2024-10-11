@@ -34,6 +34,15 @@ export function Portfolio() {
       </h2>
       <div className="flex flex-col gap-6">
         <div className="flex flex-col gap-2">
+          <ProjectLink href="https://epicforge.app" name="EpicForge.app" />
+          <p className="text-muted-foreground">
+            A SaaS tool for Jira power users to quickly clone issue based on
+            their own templates. It automates repetitive tasks, simplifies
+            project management, and streamlines workflows for recurring
+            projects.
+          </p>
+        </div>
+        <div className="flex flex-col gap-2">
           <ProjectLink
             href="/jpn-inheritance-tax/"
             name="Japanese Inheritance Tax Calculator"
